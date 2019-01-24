@@ -12,6 +12,7 @@ add_action('wp_enqueue_scripts', function() use ($assets)
     *   Files should be in public/css
     */
     $assets->enqueueStyle('app.css');
+    $assets->enqueueStyle('vendor.min.css');
 
     /**
     *   JavaScript
