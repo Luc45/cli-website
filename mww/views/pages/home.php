@@ -54,6 +54,9 @@
                             <a href="https://chrome.google.com/webstore/detail/organize-downloads-by-dat/ipjljbilkibpncgnagphiamkkdilbbki" target="_blank">Organize Downloads by Date</a> -
                             This is a Chrome Extension to automatically organize your downloads folder by date.
                         </li>
+                        <li><a href="https://github.com/Luc45/cli-website" target="_blank">This website!</a> -
+                            Yes! This website is publicly available on GitHub!
+                        </li>
                     </ul>
                 </div>
 
