@@ -72,7 +72,8 @@ class WebRadio {
      */
     public static function hasSelectedWebRadio() : bool
     {
-        return ! empty($_SESSION[self::SESSION_KEY]);
+        $playlist = $_SESSION[self::SESSION_KEY];
+        return ! empty($playlist) && $playlist != "stop";
     }
 
     /**
