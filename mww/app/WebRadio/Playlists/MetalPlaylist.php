@@ -6,7 +6,7 @@ class MetalPlaylist implements PlaylistInterface {
     public function get() : array
     {
         return [
-            'Alestorm - Nancy The Tavern Wench' => 'http://www.youtube.com/watch?v=_MV23cy3FGs',
+            'Alestorm - Nancy The Tavern Wench' => 'https://www.youtube.com/watch?v=_MV23cy3FGs',
             'Alestorm - Scraping The Barrel' => 'https://www.youtube.com/watch?v=TQ2Kg7P0o7I',
             'Alestorm - Shipwrecked' => 'https://www.youtube.com/watch?v=fjGM2IKkFpE',
             'Alestorm - You Are a Pirate' => 'https://www.youtube.com/watch?v=CvXdmQh7BHY',
@@ -109,7 +109,7 @@ class MetalPlaylist implements PlaylistInterface {
             'Sonata Arctica - Paid In Full' => 'https://www.youtube.com/watch?v=2J2xu9BVq3Q',
             'Sonata Arctica - Victorias Secret ' => 'https://www.youtube.com/watch?v=O126HRqReto',
             'SpellBlast - Glory To The Gem' => 'https://www.youtube.com/watch?v=IZGyd2OPtnY',
-            'SpellBlast - Goblins Song' => 'http://www.youtube.com/watch?v=E4sP-wv-WNo',
+            'SpellBlast - Goblins Song' => 'https://www.youtube.com/watch?v=E4sP-wv-WNo',
             'SpellBlast - Lost In The Forest' => 'https://www.youtube.com/watch?v=95n3uVysE84',
             'Spellblast - Ragnarok - Dream Of The End' => 'https://www.youtube.com/watch?v=vpIaIcpWbFg',
             'SpellBlast - Sign of the Unicorns' => 'https://www.youtube.com/watch?v=QUU_wIuIuss',
