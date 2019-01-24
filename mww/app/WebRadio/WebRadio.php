@@ -44,8 +44,9 @@ class WebRadio {
         }
 
         try {
-            $protocol = is_ssl() ? 'https' : 'http';
-            $string = '<script src="' . $protocol . '://scmplayer.co/script.js" data-config="' . $this->generateConfigString() . '"></script>';
+            $url = MWW_URL . '/public/scm/script.js';
+            $config = $this->generateConfigString();
+            $string = "<script src='$url' data-config=\"$config\"></script>";
             return $string;
         } catch(WebRadioException $e) {
             return '';
@@ -86,7 +87,7 @@ class WebRadio {
             {
                 'skin':'skins/black/skin.css',
                 'volume':50,
-                'autoplay':false,
+                'autoplay':true,
                 'shuffle':true,
                 'repeat':1,
                 'placement':'bottom',
