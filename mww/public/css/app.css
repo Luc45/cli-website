@@ -256,6 +256,9 @@ div#lucas img.sticky {
 }
 
 @media screen and (max-width: 800px) {
+    #lucas {
+        display:none !important;
+    }
     #screen {
     background-color: #222;
     /* width: 100%; */
