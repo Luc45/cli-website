@@ -41,7 +41,7 @@
                             {delay: 500},
                             {select: {from: 0, to: 28}},
                             {remove: {num: 28, type: 'whole'}},
-                            {type: 'Remember, *K* for my personal selection, *M* for heavy metal...'},
+                            {type: 'Remember, *K* for my personal selection, *M* for heavy metal... *S* to stop the music.'},
                             {delay: 1000},
                             {type: '<br>'},
                             {type: 'Just don\'t press *R*!'}
@@ -133,6 +133,9 @@
                     }
                     else if (event.key === "m") {
                         Music.play('metal');
+                    }
+                    else if (event.key === "s") {
+                        Music.play('stop');
                     }
                     else if (event.key === "r") {
                         Music.rickroll();

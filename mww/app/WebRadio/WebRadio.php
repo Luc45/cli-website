@@ -11,7 +11,7 @@ class WebRadio {
     const SESSION_KEY = 'playlist';
 
     /** @var array */
-    const VALID_PLAYLISTS = ['default', 'metal'];
+    const VALID_PLAYLISTS = ['default', 'metal', 'stop'];
 
     /** @var DefaultPlaylist $default_playlist */
     protected $default_playlist;

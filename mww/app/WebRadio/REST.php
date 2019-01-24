@@ -29,6 +29,9 @@ class REST {
      */
     public function set_session(\WP_REST_Request $request)
     {
+        if ($request['playlist'] == 'stop') {
+            unset($_SESSION[WebRadio::SESSION_KEY]);
+        }
         $_SESSION[WebRadio::SESSION_KEY] = $request['playlist'];
     }
 }
