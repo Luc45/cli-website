@@ -31,7 +31,8 @@ class REST {
     {
         if ($request['playlist'] == 'stop') {
             unset($_SESSION[WebRadio::SESSION_KEY]);
+        } else {
+            $_SESSION[WebRadio::SESSION_KEY] = $request['playlist'];
         }
-        $_SESSION[WebRadio::SESSION_KEY] = $request['playlist'];
     }
 }
