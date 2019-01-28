@@ -35,6 +35,7 @@ class DefaultPlaylist implements PlaylistInterface {
             'Gilberto Gil e Milton Nascimento - Sebastião' => 'https://www.youtube.com/watch?v=xUCJd1au5AM',
             'Barrington Levy - Black Roses' => 'https://www.youtube.com/watch?v=OdhEAl_sI1A',
             'Rupert Holmes - Escape' => 'https://www.youtube.com/watch?v=TazHNpt6OTo',
+            'John Denver - Take Me Home, Country Roads' => 'https://www.youtube.com/watch?v=1vrEljMfXYo',
         ];
     }
 }
