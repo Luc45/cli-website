@@ -6,7 +6,7 @@
 
                 <div class="topic_header">ABOUT ME</div>
                 <div class="body_text">
-                    I am an experienced PHP developer focused on WordPress development. I have worked on big agencies
+                    I'm an experienced PHP developer focused on WordPress. I have worked on big agencies
                     taking care of some really large websites, building a lot of new ones, writing custom plugins, releasing open-source plugins
                     to the WordPress community and so on.
                     I'm passionate about philosophy, seeking wisdom in every lesson life has to offer.
