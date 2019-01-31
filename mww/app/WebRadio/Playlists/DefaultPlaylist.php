@@ -37,6 +37,7 @@ class DefaultPlaylist implements PlaylistInterface {
             'Rupert Holmes - Escape' => 'https://www.youtube.com/watch?v=TazHNpt6OTo',
             'John Denver - Take Me Home, Country Roads' => 'https://www.youtube.com/watch?v=1vrEljMfXYo',
             'Freedom - Django Unchained' => 'https://www.youtube.com/watch?v=xdOykEJSXIg',
+            'Iggy Pop - The Passenger' => 'https://www.youtube.com/watch?v=hLhN__oEHaw',
         ];
     }
 }
