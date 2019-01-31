@@ -1,5 +1,5 @@
                     <div id="footer">
-                        Last Updated - Jan/22/2019 V-2.2.1
+                        Contact: lucasfbustamante@gmail.com
                     </div>
                 </div>
             </div>
