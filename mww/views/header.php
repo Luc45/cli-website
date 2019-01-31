@@ -17,6 +17,8 @@
 
         <title>Lucas Bustamante - PHP Back-end developer, specialized in Wordpress.</title>
 
+        <link href="<?= wp_get_attachment_url(16) ?>" rel="shortcut icon">
+
         <?php wp_head(); ?>
     </head>
 
