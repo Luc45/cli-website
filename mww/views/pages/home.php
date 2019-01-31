@@ -1,4 +1,3 @@
-
                 <div class="topic_header">NAME</div>
                 <div class="body_text">Lucas Bustamante</div>
 
@@ -7,6 +6,9 @@
 
                 <div class="topic_header">ABOUT ME</div>
                 <div class="body_text">
+                    I am an experienced PHP developer focused on WordPress development. I have worked on big agencies
+                    taking care of some really large websites, building a lot of new ones, writing custom plugins, releasing open-source plugins
+                    to the WordPress community and so on.
                     I'm passionate about philosophy, seeking wisdom in every lesson life has to offer.
                     This mentality of being conscious and present is what drives my gut of writing clean code, and, at the same time, allows me to
                     take a deep breath by the end of the day and go do something that I enjoy. I like to ride my <a href="<?= wp_get_attachment_url(11) ?>" data-lightbox="motorcycle">motorcycle</a> with friends,
@@ -25,34 +27,30 @@
                     <p><a href="https://github.com/Luc45" target="_blank">GitHub/Luc45</a> - Link to open-source projects I created/contributed to.</p>
                     <p><a href="https://stackoverflow.com/users/2056484/lucas-bustamante?tab=profile" target="_blank">StackOverflow</a>
                         - Link to my Stack Overflow profile.</p>
-                </div>
-
-                <div class="topic_header">CONTACT</div>
-                <div class="body_text">
-                    Email - lucasfbustamante@gmail.com
+                    <a href="https://medium.com/@lucasfbustamante" target="_blank">Medium.com/@lucasbustamante</a> - My blog
                 </div>
 
                 <div class="topic_header">PROJECTS</div>
                 <div class="body_text">
-                    <ul>
+                    <ul id="projects">
                         <li><a href="https://github.com/Luc45/ModernWordPressWebsite" target="_blank">Modern WordPress Website (MWW)</a> -
-                            MWW is a way of creating websites that uses a MVC structure in WordPress.
+                            MWW uses Object Oriented Programming to create a Model-View-Controller structure in WordPress.
                         </li>
                         <li>
                             <a href="https://github.com/Luc45/WooCommerce-Correios-Calculo-de-Frete-na-Pagina-do-Produto" target="_blank">WooCommerce Correios - Cálculo de Frete na Página do Produto</a> -
-                            Phew, that was a big one! CFPP is a WordPress plugin that shows a shipping costs calculator on the product page for Brazilians WooCommerce users.
+                            WordPress plugin that shows a shipping costs calculator on the product page for Brazilians WooCommerce users.
                         </li>
                         <li>
                             <a href="https://github.com/Luc45/Very-Simple-Password-for-Wordpress" target="_blank">Very Simple Password for WordPress</a> -
-                            VSPP is a WordPress plugin that adds password protection to a website.
+                            WordPress plugin that adds password protection to a website.
                         </li>
                         <li>
                             <a href="https://github.com/Luc45/Esqueleto-CodeIgniter" target="_blank">Esqueleto CodeIgniter</a> -
-                            This is a CodeIgniter skeleton for starting new projects, with admin panel, forgot password, etc.
+                            CodeIgniter skeleton for starting new projects, with admin panel, forgot password, etc.
                         </li>
                         <li>
                             <a href="https://chrome.google.com/webstore/detail/organize-downloads-by-dat/ipjljbilkibpncgnagphiamkkdilbbki" target="_blank">Organize Downloads by Date</a> -
-                            This is a Chrome Extension to automatically organize your downloads folder by date.
+                            Chrome Extension to automatically organize your downloads folder by date.
                         </li>
                         <li><a href="https://github.com/Luc45/cli-website" target="_blank">This website!</a> -
                             Yes! This website is publicly available on GitHub!
@@ -60,7 +58,13 @@
                     </ul>
                 </div>
 
-                <div class="topic_header">BLOG</div>
+                <div class="topic_header">SCHEDULE A MEETING WITH ME</div>
                 <div class="body_text">
-                    <a href="https://medium.com/@lucasfbustamante" target="_blank">Medium.com/@lucasbustamante</a>
+                    <!-- Widget de link do Calendly - início -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                    <ul id="schedule">
+                        <li><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/lucasbustamante/60min');return false;" class="meeting">Click here to schedule a meeting, <b>if you want to hire me</b>.</a></li>
+                    </ul>
+                    <!-- Widget de link do Calendly - fim -->
                 </div>
