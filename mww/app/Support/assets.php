@@ -36,8 +36,3 @@ add_action('wp_enqueue_scripts', function() use ($assets)
     ]);
     wp_enqueue_script('app-js');
 });
-
-add_action('wp_print_styles', function() {
-    wp_deregister_style('dashicons');
-    wp_deregister_style('wp-block-library');
-});
