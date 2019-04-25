@@ -57,14 +57,3 @@
                         </li>
                     </ul>
                 </div>
-
-                <div class="topic_header">SCHEDULE A MEETING WITH ME</div>
-                <div class="body_text">
-                    <!-- Widget de link do Calendly - início -->
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                    <ul id="schedule">
-                        <li><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/lucasbustamante/60min');return false;" class="meeting">Click here to schedule a meeting, <b>if you want to hire me</b>.</a></li>
-                    </ul>
-                    <!-- Widget de link do Calendly - fim -->
-                </div>
